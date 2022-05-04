@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Scope("prototype")
 public class Missao {
     @Autowired
-    @Qualifier("clerigo")
+    @Qualifier("cavaleiro")
     private Heroi heroi;
 
     public Missao(Heroi heroi){

@@ -1,10 +1,10 @@
-package br.ufjf.dcc193.henrique.cardoso.demo;
+package br.ufjf.dcc193.henriqueacar.aula03;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoApplicationTests {
+class Aula03ApplicationTests {
 
 	@Test
 	void contextLoads() {
