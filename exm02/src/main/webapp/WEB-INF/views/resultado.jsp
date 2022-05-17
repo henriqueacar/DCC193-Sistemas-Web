@@ -9,6 +9,7 @@
 </head>
 <body>
     <h1>Resultado</h1>
-    <p>Bem vindo ${nome}! Você tem ${idade} anos!</p>
+    <p>Bem vindo ${pessoa.nome}! 
+       Você tem ${pessoa.idade} anos!</p>
 </body>
 </html>
