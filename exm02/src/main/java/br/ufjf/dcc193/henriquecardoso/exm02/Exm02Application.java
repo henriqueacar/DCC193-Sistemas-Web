@@ -15,8 +15,6 @@ public class Exm02Application {
 		rep.save(new Pessoa("Beltrano", 30));
 		rep.save(new Pessoa("Ciclana", 19));
 		System.out.println(rep.findAll().toString());
-
-
 	}
 
 }

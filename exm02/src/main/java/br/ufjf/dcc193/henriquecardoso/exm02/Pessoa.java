@@ -1,3 +1,4 @@
+package br.ufjf.dcc193.henriquecardoso.exm02;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -37,6 +38,11 @@ public class Pessoa {
     }
     public void setIdade(Integer idade) {
         this.idade = idade;
+    }
+
+    @Override
+    public String toString() {
+        return "Pessoa [id=" + id + ", idade=" + idade + ", nome=" + nome + "]";
     }
     
 

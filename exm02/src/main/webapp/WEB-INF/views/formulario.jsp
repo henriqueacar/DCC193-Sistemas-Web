@@ -9,7 +9,7 @@
 </head>
 <body>
     <h1>Formulário</h1>
-    <form action="resultado.html" method="post">
+    <form action="adiciona.html" method="post">
         <label>Nome: <input type="text" name="nome"/></label>
         <label>Idade: <input type="text" name="idade"/></label>
         <input type="submit">
